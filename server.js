@@ -3,7 +3,7 @@ const app = express();
 require('dotenv').config();
 const db = require('./config/db');
 const { errorHandler } = require('./middlewares/errorHandler');
-const port = process.env.PORT || 3000;
+const port = 3000;
 //database connection initiated
 db();
 // Middleware to parse JSON data
